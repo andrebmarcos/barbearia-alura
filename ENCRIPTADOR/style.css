@@ -1,0 +1,151 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    
+}
+html{
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+main{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+header{
+    padding: 20px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 50px;
+    margin: auto 445px ;
+}
+.titulo{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.input1{
+    display: flex;
+    float: left;
+    padding: 20px;
+
+}
+.inputTexto{
+    text-align: center;
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    margin: auto;
+}
+.mensagem{
+    text-align: center;
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+.botoes{
+    clear: left;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.botao{
+    margin: 50px;
+    
+}
+.codificar{
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+.codificar:hover{
+    transform: scale(1.1);
+}
+.descodificar{
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+.descodificar:hover{
+    transform: scale(1.1);
+}
+.copiar {
+    box-shadow: 2px 2px black;
+    border-radius: 15px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+.copiar:hover{
+    transform: scale(1.1);
+}
+footer.rodape{
+    
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    position: fixed;
+    width: 90%;
+
+}
+
+.copyrigth{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+footer{
+    text-align: center;
+    padding: 5em;
+    
+    
+}
+
+.git{
+    width: 50px;
+    align-items: center;
+}
+.linke {
+    width: 50px;
+    align-items: center; 
+}
+
+@media screen and (max-width: 400px){
+    .caixa, .botoes, .input1, .inputText, .mensagem{
+        width: auto;
+    
+    }
+    h1{
+        text-align: center;
+    }
+  
+    main{
+        width: 100%;
+        justify-content: center;
+        position: static;
+
+    }
+    
+}
